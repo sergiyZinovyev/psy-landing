@@ -129,6 +129,7 @@
     font-size:40px;
     margin-bottom:60px;
     font-weight:700;
+    color:#3d3d3d;
 }
 
 .benefits-grid{
@@ -151,6 +152,7 @@
     text-align:center;
 
     display:flex;
+    flex-direction:column;
     align-items:center;
     justify-content:center;
 
@@ -181,13 +183,29 @@
     border-radius:20px;
 }
 
+.benefit-icon{
+    width:60px;
+    height:60px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.benefit-icon img{
+    width:60px;
+    height:60px;
+}
+
 /* TEXT */
 .benefit p{
     font-size:18px;
     line-height:1.6;
     font-weight: 600;
     letter-spacing: -0.03em;
-    color:#ff4f4a;
+    color:#3d3d3d;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 /* QUOTE */
@@ -232,6 +250,7 @@
 .author-text h2{
     font-size:36px;
     margin-bottom:10px;
+    color:#3d3d3d;
 }
 
 .author-name{
@@ -430,7 +449,8 @@
     }
 
     .subtitle{
-        font-size:19px;
+        line-height: 1.2;
+        font-size:22px;
         text-shadow: 0 2px 8px rgba(0, 0, 0);
     }
 
@@ -470,6 +490,8 @@
 
     .benefits-quote{
         font-size:20px;
+        font-weight: 600;
+        line-height: 1.4;
     }
 
 
@@ -480,8 +502,8 @@
     }
 
     .author-grid{
-        grid-template-columns:1fr;
-        gap:30px;
+        grid-template-columns: 1fr;
+        gap: 10px;
     }
 
     .author-name{
@@ -490,7 +512,7 @@
         margin: 0;
         letter-spacing: 0.05em;
     }
-    
+
 
     /* PROGRAM */
 
